@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use these research scripts and results, please cite this repository and the associated manuscript."
+title: "Frugal Edge AI Platform Adequacy: Research Scripts and Evaluation Records"
+type: software
+authors:
+  - family-names: Okano
+    given-names: Marcelo Tsuguio
+    orcid: "https://orcid.org/0000-0003-1680-7821"
+repository-code: "https://github.com/profokano/frugal-edge-ai-platform-adequacy"
+version: "1.0.0"

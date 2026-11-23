@@ -1,0 +1,26 @@
+[
+  {
+    "file": "hailo_benchmark/models/kolektor_yolov8s_416_hailo8l.hef",
+    "sha256": "231eb77545e00ab952ef8aaffe47c62cad8a282be001c344e8fe965e6240a0c5",
+    "bytes": 28324862,
+    "included_in_package": false
+  },
+  {
+    "file": "hailo_benchmark/models/kolektor_yolov8n_416_hailo8l.hef",
+    "sha256": "87e988636ec0274a563f7117c3071993059ab2598c075f1e011efab7e6150b38",
+    "bytes": 11086453,
+    "included_in_package": false
+  },
+  {
+    "file": "hailo_benchmark/models/deeppcb_yolov8s_416_hailo8l.hef",
+    "sha256": "f6f9bea92b85c30a8245f155862e0b01c51dc04a32b189ba324ab333cc2b07e8",
+    "bytes": 26907991,
+    "included_in_package": false
+  },
+  {
+    "file": "hailo_benchmark/models/deeppcb_yolov8n_416_hailo8l.hef",
+    "sha256": "729d1b3ca700fec7a718d8eb5fab9024a5d40d745e658b66863a2d946ace7b89",
+    "bytes": 11026118,
+    "included_in_package": false
+  }
+]

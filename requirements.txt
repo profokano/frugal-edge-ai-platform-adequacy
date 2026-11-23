@@ -1,0 +1,7 @@
+# Generic dependencies for scripts included in this archive.
+# HailoRT/hailo_platform is hardware/vendor-specific and must be installed separately.
+numpy>=1.26,<3
+opencv-python>=4.8,<5
+pycocotools>=2.0.7,<3
+onnxruntime>=1.17,<2
+psutil>=5.9,<8
