@@ -1,0 +1,2 @@
+class_id,gt_count,prediction_count,AP50,AP50_95
+0,1,29,1.0,0.6

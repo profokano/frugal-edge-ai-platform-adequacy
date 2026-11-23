@@ -1,0 +1,34 @@
+{
+  "hef": "./hailo_benchmark/models/kolektor_yolov8s_416_hailo8l.hef",
+  "hef_sha256": "231eb77545e00ab952ef8aaffe47c62cad8a282be001c344e8fe965e6240a0c5",
+  "images": "./datasets/KolektorSDD2/test",
+  "labels": "./datasets/KolektorSDD2_yolo/labels/test",
+  "image_count": 1004,
+  "warmup": 20,
+  "num_classes": 1,
+  "exclude_mask_suffix": "_GT",
+  "operational_conf": 0.25,
+  "operational_nms_iou": 0.45,
+  "ap_conf": 0.001,
+  "ap_nms_iou": 0.7,
+  "ap_method": "custom 101-point interpolation (not official COCO evaluation)",
+  "max_detections_per_image": 300,
+  "grid_specs": [
+    [
+      52,
+      8
+    ],
+    [
+      26,
+      16
+    ],
+    [
+      13,
+      32
+    ]
+  ],
+  "model_output_assumption": "3549 x 1 class, 3549 x 64 DFL, P3/P4/P5",
+  "python": "3.12.16 | packaged by Anaconda, Inc. | (main, Oct 26 2026, 20:13:17) [GCC 14.3.0]",
+  "numpy": "1.26.4",
+  "opencv": "4.11.0"
+}
