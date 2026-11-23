@@ -1,0 +1,17 @@
+{
+  "evaluator": "pycocotools COCOeval",
+  "iouType": "bbox",
+  "maxDets": [
+    1,
+    10,
+    300
+  ],
+  "extraction": "COCOeval accumulated precision tensor, area=all, maxDets=300",
+  "image_count": 500,
+  "gt_count": 3140,
+  "prediction_count": 7674,
+  "AP50_95": 0.6940826957461823,
+  "AP50": 0.9232984466997368,
+  "custom_AP50_95": 0.6940826957461823,
+  "custom_AP50": 0.923298446699737
+}
